@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://btgt7d4c64bug"]
+
+[ext_resource type="Script" path="res://scripts/Enemy.gd" id="1_h7y2h"]
+[ext_resource type="Texture2D" uid="uid://c0pnca0qm542v" path="res://cthulhu_half.png" id="2_hjan5"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_xmqit"]
+radius = 20.0
+
+[node name="Enemy" type="CharacterBody2D" groups=["enemies"]]
+position = Vector2(-745, -31)
+scale = Vector2(0.6, 0.6)
+script = ExtResource("1_h7y2h")
+stop_distance = 150.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_xmqit")
+one_way_collision_margin = 6.0
+debug_color = Color(0, 0.6, 0.701961, 0.419608)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(2.08165e-12, 2.08165e-12)
+texture = ExtResource("2_hjan5")

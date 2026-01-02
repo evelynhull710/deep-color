@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" shape-rendering="geometricPrecision">
+  <defs>
+    <radialGradient id="g" cx="50%" cy="40%" r="70%">
+      <stop offset="0" stop-color="#7f9f78"/>
+      <stop offset="1" stop-color="#2a3a2f"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Head -->
+  <path fill="url(#g)" stroke="#0e1511" stroke-width="14" stroke-linejoin="round"
+        d="M256 78
+           C174 78 118 132 118 210
+           C118 290 168 332 198 350
+           C218 362 222 390 214 410
+           C207 426 224 446 256 446
+           C288 446 305 426 298 410
+           C290 390 294 362 314 350
+           C344 332 394 290 394 210
+           C394 132 338 78 256 78Z"/>
+
+  <!-- Wings -->
+  <path fill="#1d2622" stroke="#0e1511" stroke-width="14" stroke-linejoin="round"
+        d="M118 212
+           C70 192 44 150 38 118
+           C78 126 118 142 152 180
+           C142 196 132 206 118 212Z"/>
+  <path fill="#1d2622" stroke="#0e1511" stroke-width="14" stroke-linejoin="round"
+        d="M394 212
+           C442 192 468 150 474 118
+           C434 126 394 142 360 180
+           C370 196 380 206 394 212Z"/>
+
+  <!-- Wing membranes -->
+  <path fill="#3a1f35" opacity="0.9"
+        d="M58 132 C92 140 124 156 150 186 C128 182 96 176 58 132Z"/>
+  <path fill="#3a1f35" opacity="0.9"
+        d="M454 132 C420 140 388 156 362 186 C384 182 416 176 454 132Z"/>
+
+  <!-- Eyes -->
+  <ellipse cx="210" cy="232" rx="26" ry="20" fill="#c2172b"/>
+  <ellipse cx="302" cy="232" rx="26" ry="20" fill="#c2172b"/>
+  <circle cx="202" cy="228" r="6" fill="#ffb3bd"/>
+  <circle cx="294" cy="228" r="6" fill="#ffb3bd"/>
+
+  <!-- Tentacles -->
+  <g fill="none" stroke="#0e1511" stroke-width="16" stroke-linecap="round">
+    <path d="M168 286 C144 314 134 356 154 390"/>
+    <path d="M196 296 C178 336 176 380 198 414"/>
+    <path d="M228 304 C220 346 232 392 254 426"/>
+    <path d="M284 304 C292 346 280 392 258 426"/>
+    <path d="M316 296 C334 336 336 380 314 414"/>
+    <path d="M344 286 C368 314 378 356 358 390"/>
+  </g>
+
+  <!-- Tentacle fill strokes -->
+  <g fill="none" stroke="#4a6a50" stroke-width="10" stroke-linecap="round" opacity="0.9">
+    <path d="M168 286 C144 314 134 356 154 390"/>
+    <path d="M196 296 C178 336 176 380 198 414"/>
+    <path d="M228 304 C220 346 232 392 254 426"/>
+    <path d="M284 304 C292 346 280 392 258 426"/>
+    <path d="M316 296 C334 336 336 380 314 414"/>
+    <path d="M344 286 C368 314 378 356 358 390"/>
+  </g>
+</svg>
